@@ -16,12 +16,6 @@ service bookshop {
   function totalStock() returns Integer;
 }
 
-service banana {
-  entity foo {
-    key id          : Integer;
-        name        : String;
-        description : String;
-        price       : Integer;
-        stock       : Integer;
-  }
+service products {
+  entity foo as projection on org.qmacro.Products;
 }

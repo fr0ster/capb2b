@@ -1,8 +1,10 @@
 namespace org.qmacro;
 
-aspect cuid {
-  key ID : UUID;
-}
+using { cuid, managed } from '@sap/cds/common';
+
+// aspect cuid {
+//   key ID : UUID;
+// }
 
 entity Books : cuid {
   title  : String;
@@ -25,3 +27,12 @@ entity Orders : cuid {
                   book     : Association to Books;
             }
 }
+
+
+entity Products : cuid, managed {
+    key id          : Integer;
+        name        : String;
+        description : String;
+        price       : Integer;
+        stock       : Integer;
+  }
