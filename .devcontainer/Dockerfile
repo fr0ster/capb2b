@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 ARG VARIANT="20"
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:dev-${VARIANT}
 ARG CAPVER="latest"
 
 # Install some generally useful tools

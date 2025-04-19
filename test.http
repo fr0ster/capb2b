@@ -35,4 +35,4 @@ GET http://localhost:4004/odata/v4/{{serviceName}}/Authors?$expand=books
 
 ###
 # @name QueryOrders with Books expanded
-GET http://localhost:4004/odata/v4/{{serviceName}}/Orders?expand=books
+GET http://localhost:4004/odata/v4/{{serviceName}}/Orders?expand=Items

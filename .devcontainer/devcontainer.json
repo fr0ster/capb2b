@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
-            "VARIANT": "20"
+            "VARIANT": "22"
         }
     },
     "customizations": {
@@ -11,6 +11,7 @@
             "extensions": [
                 "sapse.vscode-cds",
                 "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
                 "humao.rest-client",
                 "qwtel.sqlite-viewer",
                 "mechatroner.rainbow-csv"

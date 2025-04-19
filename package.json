@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "cap-listening-plugin": "github:qmacro/cap-listening-plugin"
+    "cap-listening-plugin": "github:qmacro/cap-listening-plugin",
+    "npm-check-updates": "^17.1.18"
   },
   "scripts": {
     "start": "cds-serve"
