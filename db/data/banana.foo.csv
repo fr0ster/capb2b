@@ -1,0 +1,11 @@
+id,name,description,price,stock
+1,banana,banana is a fruit,0.5,100
+2,apple,apple is a fruit,0.3,200
+3,orange,orange is a fruit,0.4,150
+4,grape,grape is a fruit,0.6,80
+5,kiwi,kiwi is a fruit,0.7,50
+6,watermelon,watermelon is a fruit,0.8,30
+7,pineapple,pineapple is a fruit,1.0,20
+8,strawberry,strawberry is a fruit,0.9,40
+9,blueberry,blueberry is a fruit,1.2,10
+10,peach,peach is a fruit,0.4,60
