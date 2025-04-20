@@ -30,7 +30,6 @@ entity Orders : cuid {
 
 
 entity Products : cuid, managed {
-    key id          : Integer;
         name        : String;
         description : String;
         price       : Integer;
