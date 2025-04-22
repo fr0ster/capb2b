@@ -1,9 +1,12 @@
 import cds from '@sap/cds/eslint.config.mjs'
+import cdsPlugin from '@sap/eslint-plugin-cds'
 
-export default {
+export default [
   ...cds.recommended,
-  plugins: ['@sap/cds'], // Підключення плагіна
-  rules: {
-    '@sap/cds/assoc2many-ambiguous-key': 'error', // Увімкніть потрібне правило
-  },
-}
+  {
+    plugins: {
+      '@sap/cds': cdsPlugin // Підключення плагіна як об'єкта
+    },
+    rules: {}
+  }
+]

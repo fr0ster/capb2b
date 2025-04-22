@@ -23,6 +23,12 @@
     "start": "cds-serve"
   },
   "cds": {
+    "lint": {
+      "enabled": false
+    },
+    "build": {
+      "enabled": false
+    },
     "requires": {
       "db": {
         "[testing]": {
