@@ -19,3 +19,8 @@ service bookshop {
 service products {
   entity foo as projection on org.qmacro.Products;
 }
+
+service banana {
+  entity author as projection on bookshop.Authors;
+  entity somthing as projection on bookshop.Books;
+}
