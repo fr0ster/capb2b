@@ -29,6 +29,14 @@ DELETE http://localhost:4004/odata/v4/bookshop/Books({{book_ID}})
 GET http://localhost:4004/odata/v4/{{serviceName}}/Orders
 
 ###
+# @name QueryOrders expanded Items
+GET http://localhost:4004/odata/v4/{{serviceName}}/Orders?$expand=Items
+
+###
+# @name QueryOrderItems
+GET http://localhost:4004/odata/v4/{{serviceName}}/OrdersItems
+
+###
 # @name QueryAuthors expanded
 GET http://localhost:4004/odata/v4/{{serviceName}}/Authors?$expand=books
 ###
